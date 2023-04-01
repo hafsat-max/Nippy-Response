@@ -1,0 +1,309 @@
+export const  fireService =[
+    {lga: 'Ejigbo Fire Station',
+    areas: [{name:'Ejigbo Council Secretariat, Ikotun-Egbe Road, NNPC Bus Stop, Ejigbo.', number:' 09055694396'}]},
+
+  {
+    lga: "Abesan Fire Station",
+    areas: [{ name: "Abesan Housing Estate, Ipaja.", number: "08135659817" }],
+  },
+
+  {
+    lga: "Ojo Fire Station",
+    areas: [
+      {
+        name: "Ojo Council Secretariat, Olojo Drive, Ojo, Lagos.",
+        number: "07063393242",
+      },
+    ],
+  },
+
+  {
+    lga: "Lekki Phase I ",
+    areas: [
+      { name: "	Akinogun Street, Oniru Private Estate", number: " 07011555539" },
+    ],
+  },
+
+  {
+    lga: "Lekki Phase II",
+    areas: [
+      {
+        name: "	Off Abraham Adesanya Estate, Ogombo-Ajah",
+        number: "07063393241",
+      },
+    ],
+  },
+
+  {
+    lga: "Ikotun",
+    areas: [
+      {
+        name: "Ikotun/Igando Council Secretariat, Ikotun",
+        number: "07063393240",
+      },
+    ],
+  },
+
+  {
+    lga: "Sari-Iganmu",
+    areas: [
+      {
+        name: "Bola Ahmed Tinubu Tanker Terminal, Sari Iganmu",
+        number: "08067026444",
+      },
+    ],
+  },
+
+  {
+    lga: "Ikorodu",
+    areas: [
+      {
+        name: "Ikorodu/Shagamu Road, Odogunya, Ikorodu.",
+        number: "08032220495",
+      },
+    ],
+  },
+
+  {
+    lga: "Agege",
+    areas: [
+      {
+        name: "Abeokuta Express Way, Ilepo Bus Stop, Oke Odo",
+        number: " 08185704012",
+      },
+    ],
+  },
+
+  {
+    lga: "Badagry",
+    areas: [{ name: "Topo-ASCON Road, Badagry", number: "08033817515" }],
+  },
+
+    {lga: 'Oshodi',
+    areas: [{name:'Bolade	Safety Arena, Bolade Bus Stop, Oshodi.', number:'07011555542'}, {name: '', number: ''}]},
+
+  {
+    lga: "Epe",
+    areas: [
+      {
+        name: "Opposite Council Secretariat, Ita Marun, Epe",
+        number: "08134238417",
+      },
+    ],
+  },
+
+  {
+    lga: "Isolo",
+    areas: [
+      {
+        name: "Oshodi/Apapa Exp. Way, Toyota Bus Stop, Isolo.",
+        number: "07011555524",
+      },
+    ],
+  },
+
+  {
+    lga: "Ilupeju",
+    areas: [
+      { name: "Ikorodu Road, Anthony Bus Stop, Ilupeju", number: "" },
+      { name: "", number: "" },
+    ],
+  },
+
+  {
+    lga: "Ikeja",
+    areas: [
+      { name: "Mobolaji Bank – Anthony Way", number: "08032219746" },
+      {
+        name: "Alausa (HQ)	Governor Road, The Secretariat, Alausa, Ikeja",
+        number: "08033235891",
+      },
+    ],
+  },
+];
+
+export const security = [
+  {
+    lga: "APAPA",
+    areas: [
+      { name: "Trinity", number: "09037497947" },
+      { name: "Layeni", number: "08036084236" },
+      { name: "Kirikiri", number: "08034868909" },
+      { name: "Ajegunle", number: "08103698324" },
+      { name: "Ijora-Badia", number: "08032650577" },
+      { name: "Amukoko", number: "08033029149" },
+      { name: "Apapa", number: "08032879790" },
+      { name: "Tolu", number: "07038494781" },
+    ],
+  },
+  {
+    lga: "SURULERE",
+    areas: [
+      { name: "Iponri", number: "08033166832" },
+      { name: "Aguda", number: "08036661470" },
+      { name: "Surulere", number: "08033516291" },
+      { name: "Orile", number: "08037267727" },
+      { name: "Bode Thomas", number: "08033439495" },
+      { name: "Sabo", number: "08033814679" },
+      { name: "Yaba", number: "08034751764" },
+      { name: "Denton", number: "08038190825" },
+    ],
+  },
+  {
+    lga: "MUSHIN",
+    areas: [
+      { name: "Aswani", number: "07033439562" },
+      { name: "Mushin", number: "08037767828" },
+      { name: "Isolo", number: "08036982232" },
+      { name: "Ajao Estate", number: "08066628450" },
+      { name: "Ago Okota", number: "08033059416" },
+      { name: "Ejigbo", number: "080333331420" },
+      { name: "Alakara", number: "08033092369" },
+      { name: "Itire", number: "08037241885" },
+      { name: "Ijeshatedo", number: "08033763709" },
+      { name: "Ilasamaja", number: "08032298119" },
+    ],
+  },
+  {
+    lga: "Festac",
+    areas: [
+      { name: "Ojo", number: "08096412201" },
+      { name: "Trade fair", number: "08033036653" },
+      { name: "Okokomaiko", number: "08099347069" },
+      { name: "Satellite", number: "07065246927" },
+      { name: "Onireke", number: "08123828631" },
+      { name: "Festac", number: "07069082017" },
+      { name: "Iba", number: "08036666430" },
+    ],
+  },
+
+  {
+    lga: "IKEJA",
+    areas: [
+      { name: "Ikeja", number: "08069318238" },
+      { name: "Makinde", number: "08067953046" },
+      { name: "Alausa", number: "08033345500" },
+      { name: "Akinpelu", number: "09028478024" },
+      { name: "Ojodu", number: "08035994823" },
+      { name: "Ilupeju", number: "08034665164" },
+      { name: "Mosafejo", number: "07039740605" },
+      { name: "Man-centre", number: "08067025197" },
+      { name: "Shogunle", number: "08033228457" },
+    ],
+  },
+
+  {
+    lga: "OGBA",
+    areas: [
+      { name: "Alakuko", number: "0802305256" },
+      { name: "Pen-Cinema", number: "08038065030" },
+      { name: "Dopemu", number: "08060301425" },
+      { name: "Abattoir", number: "07032868646" },
+      { name: "Ijaye-Ojokoro", number: "08168114899" },
+      { name: "Elere", number: "08034392402" },
+      { name: "Isokoko", number: "08034392402" },
+      { name: "Oko Oba", number: "08035143281" },
+      { name: "Iju", number: "08035675251" }
+    ],
+  },
+
+  {
+    lga: "OGUDU",
+    areas: [
+      { name: "Shomolu", number: "08023042609" },
+      { name: "Ogudu", number: "08033797766" },
+      { name: "Ketu", number: "08037460360" },
+      { name: "Isheri", number: "08037256778" },
+      { name: "Oworonshoki", number: "08151946420" },
+      { name: "Onipanu", number: "08032656028" },
+      { name: "Ifako", number: "08039303683" },
+      { name: "Anthony", number: "08032-11783" },
+      { name: "Bariga", number: "08033530183" },
+      { name: "Alapere", number: "08101286840" },
+      { name: "Alade", number: "0806131172" }
+    ],
+  },
+  {
+    lga: "ELEMORO",
+    areas: [
+      { name: "Maroko", number: "08033137432" },
+      { name: "Epe", number: "08081776077" },
+      { name: "Ogombo", number: "08066311115" },
+      { name: "Ilasan", number: "08081763054" },
+      { name: "Elemmoro", number: "08033697389" },
+      { name: "Langbasa", number: "08068317993" },
+      { name: "Akodo", number: "08035040584" },
+      { name: "Ajah", number: "08062264597" },
+      { name: "Odo-Norofija", number: "08066125549" },
+      { name: "LFTZ", number: "08023695649" },
+    ],
+  },
+  {
+    lga: "MOROGBO",
+    areas: [
+      { name: "Ishashi", number: "08032656028" },
+      { name: "Ilemba-Hausa", number: "08075393911" },
+      { name: "Badagry", number: "08073782474" },
+      { name: "Ijanikin", number: "08035709744" },
+      { name: "Seme", number: "08039395017" },
+      { name: "Morogbo", number: "08035707565" }
+    ],
+  },
+  {
+    lga: "ILASHE",
+    areas: [
+      { name: "Osolu Kingdom", number: "08109497655" },
+      { name: "Ibeshe", number: "08109407655" },
+      { name: "Igbologun", number: "08038452309" },
+      { name: "Takwa Bay", number: "08037105219" },
+      { name: "Ilashe", number: "08178300226" },
+    ],
+  },
+  {
+    lga: "IDIMU",
+    areas: [
+      { name: "Ikotun", number: "08034-94108" },
+      { name: "Idimu", number: "08033285727" },
+      { name: "Gowon Estate", number: "08027550775" },
+      { name: "Igando", number: "08032366226" },
+      { name: "Isheri Osun", number: "07068324583" },
+      { name: "Shasha", number: "08065541083" },
+    ],
+  },
+  {
+    lga: "IJEDE",
+    areas: [
+      { name: "Agbowa", number: "07040154433" },
+      { name: "Owode Onirin", number: "08037028850" },
+      { name: "Shagamu RD", number: "08034507541" },
+      { name: "Owutu", number: "08033567703" },
+      { name: "Ipakodo", number: "08034939548" },
+      { name: "Ikorodu", number: "0812628195" },
+      { name: "Imota", number: "08060418840" },
+      { name: "Ijede", number: "08037544935" },
+      { name: "Ketu Ereyun", number: "08125151088" },
+    ],
+  },
+  {
+    lga: "ALAGBADO",
+    areas: [
+      { name: "Oke-Odo", number: "08036982232" },
+      { name: "Alagbado", number: "08035007439" },
+      { name: "Ipaja", number: "08126661517" },
+      { name: "Mieran", number: "08037168410" },
+      { name: "Ayobo", number: "08169654582" },
+    ],
+  }
+  
+];
+
+export const emergency =[
+  {lga: 'hhu',
+    areas: [
+    {name:'0700AMBULANCE', location:'2a Omorire Jonson Street, Lekki Phase 1, Lagos' , number:'08097425709'},
+    {name: 'Critical Rescue International', location: '26, Talabi Street, Off Adeniyi Jones, Ikeja', number: '07000000199'},
+    {name:'Wings of Rescue Limited', location:'Wings of Rescue Limited, Omole Phase 1, Lagos Nigeria', number: '08143470716'},
+    {name:'All in Care Hospital and AMbulance', location:'17, Coker Street, Ifako-Ijaiye, Lagos Nigeria', number:'080330444521643516'}
+  ]
+  }  
+]
