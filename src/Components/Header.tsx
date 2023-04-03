@@ -1,10 +1,14 @@
 import React, {useState} from "react";
 import logo from "../../public/nippy-logo.png";
+import Modal from "./Drawer";
+import Hamburger from "./Hamburger";
+import { useDisclosure } from "@mantine/hooks";
 
+
+export const navList = ['Home', 'About us', 'Our services', 'Contact us']
 export const Header = () => {
+  const [opened, { open, close }] = useDisclosure(false);
 
-    const navList = ['Home', 'About us', 'Our services', 'Contact us']
-    const [list, setList] = useState(0);
 
   return (
     <>
@@ -17,7 +21,7 @@ export const Header = () => {
           />
         </div>
 
-        <ul className="flex  gap-[32px] self-end justify-around">
+        <ul className="hidden  gap-[32px] self-end justify-around min-[618px]:flex">
            {navList.map((item, index) =>(
             <li key={index}>
                 {item}
@@ -26,8 +30,14 @@ export const Header = () => {
            } 
         </ul>
 
+        <Hamburger
+        openDrawer={open}
+        className="hidden max-[618px]:block"
+        
+        />
 
       </nav>
+        <Modal opened={opened} close={close} />
     </>
   );
 };
