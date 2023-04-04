@@ -4,21 +4,21 @@ import Footer from "src/Components/Footer";
 import Header from "src/Components/Header";
 import ImageCards from "src/Components/ImageCards";
 import InputSection from "src/Components/InputSection";
-import fireCard from "../public/firecard.png";
+import aidcard from "../public/aidcard.png";
 
-const fire = () => {
+const Health = () => {
   return (
     <section className="mt-[70px]">
       <Header />
       <h1 className="text-[#DF181E] font-extrabold leading-[86px] text-[72px] text-center fire-heading pt-[20px]">
-        Fire Service
+        Health Emergency
       </h1>
       
       <section className =" flex justify-around items-center px-[30px] mt-[30px] gap-[30px]">
       <InputSection />
       <ImageCards
-        subHeading="Fire Department"
-        image={fireCard.src}
+        subHeading="Nearest Hospital"
+        image={aidcard.src}
         color="#DF181E"
       />
       </section>
@@ -28,4 +28,4 @@ const fire = () => {
   );
 };
 
-export default fire;
+export default Health;

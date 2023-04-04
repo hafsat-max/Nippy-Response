@@ -58,7 +58,7 @@ let list3 = [
 
 function Footer() {
   return (
-    <footer className="bg-[#3D4452] py-[100px] px-[2rem]">
+    <footer className="bg-[#3D4452] py-[100px] px-[2rem] w-[100%]">
       <div className="flex flex-row justify-around gap-[20px]">
         <ul className="flex flex-col gap-[23px]">
           {list1.map((item, index) => (

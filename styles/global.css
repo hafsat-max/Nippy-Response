@@ -223,16 +223,37 @@ ul li {
   line-height: 24px;
 }
 
+
+/* BEGINNING OF CLAMPS */
 .nippy-h3{
   font-weight: 500;
   font-size: 1.5625rem;
 font-size: clamp(1.5625rem, 1.0803571428571428rem + 2.4107142857142856vw, 3.25rem);
 }
 
+.fire-p{
+  font-size: 1.25rem;
+font-size: clamp(1.25rem, 0.8928571428571429rem + 1.7857142857142856vw, 2.5rem);
+margin-left: -40px;
+}
+.fire-heading{
+  font-size: 3.125rem;
+font-size: clamp(3.125rem, 2.732142857142857rem + 1.9642857142857142vw, 4.5rem);
+}
+
+.fire-img-heading{
+  font-size: 0.9375rem;
+font-size: clamp(0.9375rem, 0.3482142857142857rem + 2.946428571428571vw, 3rem);
+}
+/* END OF CLAMPS */
+
 @media only screen and (max-width: 500px) {
   /* CSS rules for screens 500px or below go here */
   .nippy-h3{
     line-height: 35px;
+  }
+  .fire-p{
+    line-height: 20px;
   }
 }
 /* 
@@ -266,7 +287,7 @@ flex-direction: column;
 
 @media only screen and (max-width: 766px){
   body{
-    width: fit-content;
+    /* width: fit-content; */
   }
   .third-col{
     display: none;
@@ -278,5 +299,21 @@ flex-direction: column;
     gap: 30px;
     margin-top: 30px;
     /* justify-center gap-[30px] mt-[30px]  */
+  }
+}
+
+@media only screen and (max-width: 748px) {
+  .image-card{
+    display: none;
+  }
+  .none{
+    display: none;
+  }
+  
+}
+
+@media  only screen and (max-width: 400px) {
+  body{
+    width: fit-content;
   }
 }

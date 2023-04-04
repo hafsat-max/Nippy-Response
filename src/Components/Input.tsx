@@ -8,6 +8,8 @@ function Input({labelName, optionData, placeHolder}) {
       data={optionData}
        
     />
+
+    
   );
 }
 export default Input
