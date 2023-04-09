@@ -3,9 +3,9 @@ import { ListItem } from "@mantine/core/lib/List/ListItem/ListItem";
 import { list } from "postcss";
 import React from "react";
 import tweet from "../../public/twitter.png";
-import facebook from "../../public/facebook.png"
-import linkedin from "../../public/linkedin.png"
-import git from "../../public/git.png"
+import facebook from "../../public/facebook.png";
+import linkedin from "../../public/linkedin.png";
+import git from "../../public/git.png";
 
 let list1 = [
   {
@@ -36,32 +36,29 @@ let list2 = [
 let list3 = [
   {
     text: "Contact us",
-
   },
   {
     text: "Github",
-    icon: git.src
+    icon: git.src,
   },
   {
     text: "LinkedIn",
-    icon: linkedin.src
+    icon: linkedin.src,
   },
   {
     text: "Twitter",
-    icon: tweet.src
+    icon: tweet.src,
   },
-  
+
   {
     text: "Facebook",
-    icon: facebook.src
+    icon: facebook.src,
   },
-
 ];
-
 
 function Footer() {
   return (
-    <footer className="bg-[#3D4452] py-[100px]">
+    <footer className="bg-[#3D4452] py-[100px] px-[2rem] w-[100%]">
       <div className="flex flex-row justify-around gap-[20px]">
         <ul className="flex flex-col gap-[23px]">
           {list1.map((item, index) => (
@@ -80,12 +77,12 @@ function Footer() {
         </ul>
 
         {/* CONTACT US */}
-        <ul className="flex flex-col gap-[23px]">
+        <ul className="flex flex-col gap-[23px] third-col">
           {list3.map((item, index) => (
             <li key={index} className=" text-white">
               {item.icon ? (
                 <span className="flex gap-[5px] ">
-                  <img src={item.icon} alt="" className=" h-[20px]"/>
+                  <img src={item.icon} alt="" className=" h-[20px]" />
                   {item.text}
                 </span>
               ) : (
@@ -95,6 +92,16 @@ function Footer() {
           ))}
         </ul>
       </div>
+
+      <ul className="hidden  icon-ul" >
+            {
+              list3.map((item, index) =>(
+                <li key={index} style={{width:20, height: 20}}>
+                   <img src={item.icon} alt="" />
+                </li>
+              ))
+            }
+      </ul>
     </footer>
   );
 }
