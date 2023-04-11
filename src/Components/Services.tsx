@@ -79,6 +79,8 @@ const data = [
   },
 ];
 
+const service =["Fire Department", "Nearest Hospital", "Police Station", "Health Post" , "Ambulance Station"]
+
 const Services = () => {
   return (
     <>
@@ -92,10 +94,10 @@ const Services = () => {
             headingColor={item.headingColor}
             cardBackground={item.cardBackground}
             pColor ={item.pColor}
-            cols= {item.cols}
-            
+            cols= {item.cols}     
           />
         ))}
+
       </section>
     </>
   );
