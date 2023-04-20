@@ -12,7 +12,7 @@ export const Header = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center px-[30px] py-[20px] m-0 bg-white fixed top-0 w-[100%] z-[2]">
+      <nav className="flex justify-between items-center px-[30px] py-[20px] m-0 bg-white fixed top-0 w-[100%] z-[2] border-bt">
         <div className="max-w-[100%] w-[152px] h-auto  box-border ">
           <img
             src={logo.src}
